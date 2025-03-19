@@ -21,12 +21,12 @@ def get_phone_number_info():
 
 root = tk.Tk()  
 root.title("Phone Number Info")  
-root.geometry("400x300")  
+root.geometry("500x400")  
 
 label = tk.Label(root, text="Enter phone number with country code (e.g., +919874563210):")  
 label.pack(pady=10)  
 
-entry = tk.Entry(root, width=30)  
+entry = tk.Entry(root, width=40)  
 entry.pack(pady=5)  
 
 submit_button = tk.Button(root, text="Submit", command=get_phone_number_info)  
